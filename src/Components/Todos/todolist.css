@@ -1,0 +1,54 @@
+.todo-list-page {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .page-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .page-header h1 {
+    font-size: 2.5rem;
+  }
+  
+  .page-header p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .todo-form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .todo-form input {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .todo-form button {
+    padding: 10px 20px;
+    background-color: #61dafb;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .tasks-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+ .todo-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust column width as needed */
+  gap: 20px; /* Adjust gap between items as needed */
+}
+
+.todo-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+}

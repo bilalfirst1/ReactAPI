@@ -1,0 +1,37 @@
+/* Styles for the photo grid */
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    color: #333;
+  }
+  
+  .photo-item {
+    background-color: #f4f4f4; /* Grey background color */
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .photo-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Styles for the buttons */
+  .show-more-less-buttons {
+    margin-top: 20px;
+  }
+  
+  .show-more-less-buttons button {
+    background-color: #f4f4f4; /* Grey background color */
+    color: #333; /* Dark text color */
+    border: 1px solid #ccc; /* Grey border */
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .show-more-less-buttons button:hover {
+    background-color: #e0e0e0; /* Darker grey background color on hover */
+  }
+  

@@ -1,0 +1,43 @@
+/* Apply styles to the comment list */
+ul.comment-list {
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove any default padding */
+}
+
+/* Apply styles to each comment item */
+ul.comment-list li {
+  margin-bottom: 20px; /* Add some space between comments */
+}
+
+/* Apply styles to the comment box */
+.comment-box {
+  border: 1px solid #ccc; /* Add border around the comment box */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  padding: 15px; /* Add padding inside the comment box */
+}
+
+/* Apply styles to form input fields */
+form.comment-form input[type="text"],
+form.comment-form textarea {
+  width: 100%; /* Make input fields take full width */
+  padding: 8px; /* Add padding for better appearance */
+  margin-bottom: 10px; /* Add space between input fields */
+  border: 1px solid #ccc; /* Add border around input fields */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Apply styles to the submit button */
+form.comment-form button[type="submit"] {
+  background-color: #007bff; /* Change background color */
+  color: #fff; /* Change text color */
+  border: none; /* Remove default border */
+  padding: 10px 20px; /* Add padding */
+  cursor: pointer; /* Change cursor on hover */
+  border-radius: 5px; /* Add border radius for rounded corners */
+}
+
+form.comment-form button[type="submit"]:hover {
+  background-color: #0056b3; /* Darken background color on hover */
+}
+

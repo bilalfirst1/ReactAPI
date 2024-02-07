@@ -1,0 +1,58 @@
+/* user.css */
+
+.user-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    padding: 0;
+  }
+  
+  .user-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .user-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .user-details {
+    padding: 20px;
+  }
+  
+  .user-details strong {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .user-details p {
+    margin: 0;
+  }
+  
+  .user-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .user-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .user-name {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .user-email {
+    font-size: 14px;
+    color: #666;
+  }
+  
